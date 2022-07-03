@@ -23,23 +23,30 @@
                     <input class="input-field" type="password" placeholder="Password">
                     <button type="submit" class="submit-btn">Log-in</button>
                 </form>
-                <a class="sign-up" href="#">Sign-up</a>
+                <a id="show-Signup" href="#">Sign-up</a>
             </div>
         </div>
     </section>
 
-    <div class="sign-up" id="sign-up">
-        <h3>Sign-up</h3>
-        <form action="" class="si">
-            <input class="input-field" type="text" placeholder="Name">
-            <input class="input-field" type="text" placeholder="Email">
-            <input class="input-field" type="text" placeholder="Password">
-            <input class="input-field" type="text" placeholder="Confirm password">
-            <button type="submit">Sign-up</button>
-        </form>
-    </div>
+    <section class="modal-signup">
+        <div class="close-btn">&times;</div>
+        <div class="sign-up" id="sign-up">
+            <h3>Sign-up</h3>
+            <form action="" class="signup-form">
+                <input class="signup-input" type="text" placeholder="Name">
+                <input class="signup-input" type="text" placeholder="Email">
+                <input class="signup-input" type="password" placeholder="Password">
+                <input class="signup-input" type="password" placeholder="Confirm password">
+                <button class="signup-btn" type="submit">Sign-up</button>
+            </form>
+            <p class="signup-text">Already have an account? Log-in <a href="index.html">here</a></p>
+        </div>
+    </section>
+    
     <footer>
         <p>ⓒ 2022 Stephany Alipin</p>
     </footer>
+
+    <script src="js/app.js"></script>
 </body>
 </html>
