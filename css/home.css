@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins&display=swap');
+:root {
+    --violet : #6C63FF;
+    --yellow : #F9A826;
+    --white: #fff;
+    --black : #333;
+    --text-bg: #f5f5f5;
+}
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    background: var(--text-bg);
+    height: 100vh;
+}
+
+.nav-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 10px;
+    margin: 2% 5% 2% 5%;
+    border: 1px outset;
+}
+.title{
+    color: var(--violet);
+}
+.sub-title{
+    color: var(--yellow);
+}
+
+.user-profile img{
+    height: 40px;
+    border-radius: 50%;
+}
